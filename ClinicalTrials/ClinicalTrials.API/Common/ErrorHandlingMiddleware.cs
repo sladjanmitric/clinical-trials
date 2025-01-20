@@ -38,7 +38,7 @@ namespace ClinicalTrials.API.Common
                     break;
                 case KeyNotFoundException _:
                     code = HttpStatusCode.NotFound;
-                    result = JsonConvert.SerializeObject(new { code, error = "Climate trial not found." });
+                    result = JsonConvert.SerializeObject(new { code, error = "Clinical trial not found." });
                     break;
                 default:
                     code = HttpStatusCode.InternalServerError;

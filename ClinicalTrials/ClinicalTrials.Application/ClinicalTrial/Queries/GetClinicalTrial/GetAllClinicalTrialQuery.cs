@@ -1,7 +1,7 @@
 ﻿using ClinicalTrials.Domain.Entity;
 using MediatR;
 
-namespace ClinicalTrials.Application.ClinicalTrial.Queries.GetClimateTrial
+namespace ClinicalTrials.Application.ClinicalTrial.Queries.GetClinicalTrial
 {
     public class GetAllClinicalTrialQuery : IRequest<IEnumerable<Trial>>
     {

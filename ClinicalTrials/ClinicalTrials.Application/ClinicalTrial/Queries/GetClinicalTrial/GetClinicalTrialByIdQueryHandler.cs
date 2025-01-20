@@ -3,7 +3,7 @@ using ClinicalTrials.Application.Common.Interfaces.Persistence;
 using ClinicalTrials.Domain.Entity;
 using MediatR;
 
-namespace ClinicalTrials.Application.ClinicalTrial.Queries.GetClimateTrial
+namespace ClinicalTrials.Application.ClinicalTrial.Queries.GetClinicalTrial
 {
     internal class GetClinicalTrialByIdQueryHandler : IRequestHandler<GetClinicalTrialByIdQuery, Trial>
     {

@@ -3,7 +3,7 @@ using ClinicalTrials.Domain.Common.Enums;
 using ClinicalTrials.Domain.Entity;
 using MediatR;
 
-namespace ClinicalTrials.Application.ClinicalTrial.Queries.GetClimateTrial
+namespace ClinicalTrials.Application.ClinicalTrial.Queries.GetClinicalTrial
 {
     public class GetAllClinicalTrialQueryHandler : IRequestHandler<GetAllClinicalTrialQuery, IEnumerable<Trial>>
     {

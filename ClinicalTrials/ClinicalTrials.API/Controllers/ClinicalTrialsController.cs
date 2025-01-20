@@ -1,6 +1,6 @@
 ﻿using ClinicalTrials.API.Common;
 using ClinicalTrials.Application.ClinicalTrial.Commands.UploadFile;
-using ClinicalTrials.Application.ClinicalTrial.Queries.GetClimateTrial;
+using ClinicalTrials.Application.ClinicalTrial.Queries.GetClinicalTrial;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
