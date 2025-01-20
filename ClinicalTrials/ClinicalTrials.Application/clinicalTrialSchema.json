@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of the clinical trial"
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The start date of the clinical trial"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The end date of the clinical trial"
+    },
+    "participants": {
+      "type": "integer",
+      "description": "The number of participants in the clinical trial"
+    },
+    "status": {
+      "type": "string",
+      "description": "Status of trial",
+      "enum":[
+		"NotStarted",
+		"OnGoing",
+		"Completed",
+	  ]
+    }
+  },
+  "required": ["title", "startDate", "status"],
+  "aditionalProperties": false
+}

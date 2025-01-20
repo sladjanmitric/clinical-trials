@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.API", "ClinicalTrials.API\ClinicalTrials.API.csproj", "{DC9C09C6-DA35-481D-BC09-B1B136856F7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EAE6D6E6-110F-4727-978C-4235B8E00DFD}"
+	ProjectSection(SolutionItems) = preProject
+		clinicalTrialSchema.json = clinicalTrialSchema.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.Application", "ClinicalTrials.Application\ClinicalTrials.Application.csproj", "{560645A7-2139-4E55-947B-04E0304E18C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.Domain", "ClinicalTrials.Domain\ClinicalTrials.Domain.csproj", "{4032F113-B4DC-4169-9ACB-C32D13515891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.Infrastructure", "ClinicalTrials.Infrastructure\ClinicalTrials.Infrastructure.csproj", "{58F92CD6-5641-450E-9BB9-60056A52EFE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5DD7E1FF-A54C-417F-A1F0-F164B5866FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicalTrials.UnitTests", "ClinicalTrials.UnitTests\ClinicalTrials.UnitTests.csproj", "{36700455-DD6F-4498-BE74-EAA9FDFA2015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC9C09C6-DA35-481D-BC09-B1B136856F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9C09C6-DA35-481D-BC09-B1B136856F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9C09C6-DA35-481D-BC09-B1B136856F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9C09C6-DA35-481D-BC09-B1B136856F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560645A7-2139-4E55-947B-04E0304E18C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560645A7-2139-4E55-947B-04E0304E18C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560645A7-2139-4E55-947B-04E0304E18C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560645A7-2139-4E55-947B-04E0304E18C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4032F113-B4DC-4169-9ACB-C32D13515891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4032F113-B4DC-4169-9ACB-C32D13515891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4032F113-B4DC-4169-9ACB-C32D13515891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4032F113-B4DC-4169-9ACB-C32D13515891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F92CD6-5641-450E-9BB9-60056A52EFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F92CD6-5641-450E-9BB9-60056A52EFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F92CD6-5641-450E-9BB9-60056A52EFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F92CD6-5641-450E-9BB9-60056A52EFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36700455-DD6F-4498-BE74-EAA9FDFA2015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36700455-DD6F-4498-BE74-EAA9FDFA2015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36700455-DD6F-4498-BE74-EAA9FDFA2015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36700455-DD6F-4498-BE74-EAA9FDFA2015}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36700455-DD6F-4498-BE74-EAA9FDFA2015} = {5DD7E1FF-A54C-417F-A1F0-F164B5866FD8}
+	EndGlobalSection
+EndGlobal
