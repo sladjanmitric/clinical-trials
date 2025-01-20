@@ -14,6 +14,8 @@
 	
 3. Wait for the SQL Server and Web API containers to start. Once they are running, the API will be available on port `8080`.
 
+Testing data folder contains 2 files which can be used for endpoints testing.
+
 ## API Endpoints
 
 ### Upload Clinical Trial
